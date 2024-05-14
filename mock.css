@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a.more-button {
+    display: block;
+    text-decoration: none;
+    color: #3b3b3b;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .button-color{
+    background-color: #2b95c2 !important;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #298fba), color-stop(1, #41a9d5));
+    color: #e2e2e2 !important;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-size: 13px !important;
+  }
+  
+  
+  
+  .button-3 {
+    margin-left: 8px;
+  }
+
+
+  
+/* Basic styles for the navigation */
+
+ul {
+  margin-right: 0 !important;
+
+  padding: 0 !important;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  
+  display: block;
+  white-space: nowrap;
+}
+
+/* Styles for the dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.color {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 17px 17px;
+}
+  
+  .nav-link {
+    padding: 0 !important;
+    color: #e2e2e2f7;
+  }
+  .nav-item {
+    margin: 0;
+    padding: 17px 17px;
+  }
+  a.nav-link {
+    font-size: 13px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin: 0;
+  }
+  .list_hover:hover {
+    background-color: #2b95c2 !important;
+    transition: all 0.4s ease;
+  }
+  
+  
+  .dropdown-item{
+    color: #e2e2e2 !important;
+    font-size: 14px;
+   }
+  
+   .color:hover{
+    background-color: #2b95c2 !important;
+    
+   }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  ul {
+    list-style-type: circle;
+    /* display: flex; */
+    gap: 14px;
+    justify-content: flex-end;
+    margin-right: 200px;
+    cursor: pointer;
+  }
+  
+  .entry-title {
+    color: #3b3b3b;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 30px;
+  }
+  
+  .widget-title {
+    color: #444444;
+    white-space: nowrap;
+    font-size: 19.5px;
+    font-weight: 400;
+  }
+  
+  .footer_text {
+    color: #aaaaaa;
+    font-size: 11.5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .last_text {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 11.5px;
+    font-weight: 500;
+  }
+  
+  .list-group {
+    font-size: 13px;
+    color: #248cc8;
+    white-space: nowrap;
+  
+  }
+  .list-group:hover{
+  
+    color: rgb(198, 129, 91)
+  
+  }
+  
